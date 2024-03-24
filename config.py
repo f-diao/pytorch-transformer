@@ -7,7 +7,7 @@ def get_config():
         "lr": 10**-4,
         "seq_len": 350,
         "d_model": 512,
-        "datasource": 'Helsinki-NLP/opus-100',
+        "datasource": 'wmt20_mlqe_task1',
         "lang_src": "en",
         "lang_tgt": "zh",
         "model_folder": "weights",
